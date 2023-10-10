@@ -56,7 +56,7 @@ main()
 	int opt =1 ;
 	while(opt!=0)
 	{ int data;
-	  	cout<<endl<<"enter a number from the following options:"<<endl<<"1. add data at beggining "<<endl<<"2.add data at end"<<endl<<"3.Display"<<endl<<"0. Exit"<<endl;
+	  	cout<<endl<<"enter a number from the following options:"<<endl<<"1. add data at beggining "<<endl<<"2.add data at end"<<endl<<"3.Display"<<endl<<"0. Exit"<<endl<<"opt:";
 	  	cin>>opt;
 	  	switch(opt)
 	  	{
@@ -68,14 +68,14 @@ main()
 	  			
 	  			cin>>data;
 	  			insertatbeggining(data);
-	  			cout<<"Done";
+	  			cout<<"Status : Done"<<endl;
 	  			break;
 	  		
 	  		case 2:
 	  			cout<<"enter data: ";
 	  			cin>>data;
 	  			insertatend(data);
-	  			cout<<"Done";
+	  			cout<<"Status : Done"<<endl;
 	  			break;
 	  		case 3:
 	  			display();
