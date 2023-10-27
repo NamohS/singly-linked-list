@@ -14,6 +14,9 @@ This C++ program demonstrates the implementation of a singly linked list with ba
 </div><br/>
 
 3] [List with menu](menuwithlist.cpp)
+
+This C++ program allows the user to interactively create and manipulate a singly linked list. It provides options to add data to the list at the beginning or end and to display the list's contents. The program's menu-driven approach makes it a practical example of creating and working with linked lists in C++.
+
 <div align="left">
   <img src="node3.png" width="17.5%" height="17.5%"/>
 </div><br/>
